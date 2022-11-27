@@ -1,0 +1,325 @@
+body {
+    background-color: #eee;
+    height: 5000px;
+}
+
+@media all and (max-width:767px) {
+    .custom-cursor {
+        cursor: pointer;
+    }
+
+    /* navigation*******************************************************************************************************************************/
+    .custom-position {
+        top: 0;
+        z-index: 2;
+    }
+
+    .custom {
+        font-size: 25px;
+    }
+
+    /*number1***********************************************************************************************************************************/
+    .about-numb1 {
+        height: 480px;
+        background-image: url(../images/2.png);
+        background-size: cover;
+    }
+
+    .link {
+        width: 104px;
+        height: 30px;
+        margin-top: 160px;
+        text-decoration: none;
+        line-height: 30px;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        background-color: white;
+    }
+
+    .link:hover {
+        background-color: #e1e1e1;
+    }
+
+    /* number2**********************************************************************************************************************************/
+    .custom-height2 {
+        height: 20px;
+    }
+
+    /*number3***********************************************************************************************************************************/
+    .custom-height3 {
+        height: 480px;
+        background-image: url(../images/5.png);
+        background-size: cover;
+    }
+
+    .img2 {
+        width: 160px;
+        height: 22px;
+    }
+
+    .p1 {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: Xiaomi Brand, Camphor Pro VF, Camphor Pro, sans-serif;
+    }
+
+    .p2 {
+        margin-top: -8px;
+    }
+
+    .link-2 {
+        width: 104px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+        background-color: black;
+    }
+
+    .link-2:hover {
+        background-color: #444;
+    }
+
+    /*number4***********************************************************************************************************************************/
+    .custom-height4 {
+        height: 751px;
+        background-image: url(../images/8.jpg);
+        background-size: cover;
+    }
+
+    .img3 {
+        width: 608px;
+        height: 41px;
+    }
+
+    .p3 {
+        font-size: 30px;
+        font-weight: 400;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+    }
+
+    .custom-margin {
+        margin-top: 70px;
+    }
+
+    .link-3 {
+        width: 143px;
+        height: 30px;
+        color: rgb(255, 105, 0);
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 22px;
+    }
+
+
+    .link-3:hover {
+        color: rgb(255, 105, 0);
+        ;
+    }
+
+    .link-3::after {
+        content: "";
+        display: block;
+        width: 115px;
+        height: 1px;
+        background-color: orange;
+        transform: scaleX(0);
+        margin-top: -6px;
+    }
+
+    .link-3:hover::after {
+        transform: scaleX(1);
+    }
+
+    /*number5***********************************************************************************************************************************/
+    .custom-height5 {
+        height: 751px;
+        background-image: url(../images/11.jpg);
+        background-size: cover;
+    }
+
+    .custom-1 {
+        justify-content: center;
+        width: 562px;
+        height: 54px;
+        margin-top: 100px;
+    }
+
+    .p4 {
+        line-height: 40px;
+        font-size: 70px;
+        font-family: Xiaomi Brand, Camphor Pro VF, Camphor Pro, sans-serif;
+        font-weight: 700;
+    }
+
+    /*number6***********************************************************************************************************************************/
+    .custom-height6 {
+        height: 751px;
+        background-image: url(../images/12.jpg);
+        background-size: cover;
+    }
+
+    .p5 {
+        font-size: 56px;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-weight: 700;
+        margin-top: 70px;
+    }
+
+    .p6 {
+        font-size: 30px;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-weight: 400;
+    }
+
+    /*number7***********************************************************************************************************************************/
+    .card-1 {
+        height: 516px;
+    }
+
+    .p7 {
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .p8 {
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    /*numeber8**********************************************************************************************************************************/
+    .custom-height7 {
+        width: 646px;
+        height: 901px;
+    }
+
+    .p9 {
+        font-size: 37px;
+        font-weight: 700;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+    }
+
+    .p10 {
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .p11 {
+        width: 135px;
+    }
+
+    .custom-height8 {
+        height: 431px;
+    }
+
+    .custom-margin3 {
+        margin-top: 90px;
+    }
+
+    .hovering::after {
+        content: "";
+        display: block;
+        width: 110px;
+        height: 1px;
+        background-color: black;
+        transform: scaleX(0);
+        margin-top: -6px;
+    }
+
+    .hovering:hover::after {
+        transform: scaleX(1);
+    }
+
+    /*number9***********************************************************************************************************************************/
+    .custom-height9 {
+        height: 249px;
+        background-color: rgb(25, 25, 25);
+    }
+
+    .custom-color {
+        font-size: 20px;
+
+        color: #c4c4c4;
+    }
+
+    .custom-height10 {
+        height: 45px;
+        line-height: 0px;
+        width: 648px;
+    }
+
+    .custom-font {
+        font-size: 12px;
+        font-weight: 700;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+    }
+
+    .link-4:hover {
+        filter: brightness(50);
+    }
+
+    .custom-margin-t {
+        margin-top: -20px;
+    }
+
+    .custom-bg {
+        background-color: rgb(25, 25, 25);
+        color: #acacac;
+        font-size: 12px;
+        height: 25px;
+    }
+
+    .custom-bg:focus {
+        outline: 0;
+    }
+
+    .custom-lineheight {
+        line-height: 10px;
+    }
+
+    .custom-hover::after {
+        content: "";
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        transform: scaleX(0);
+    }
+
+    .custom-hover:hover::after {
+        transform: scaleX(1);
+    }
+
+    .custom-height11 {
+        height: 45px;
+        width: 648px;
+        margin-bottom: -20px;
+    }
+
+    .custom-height12 {
+        height: 10px;
+        line-height: 0px;
+        margin-top: -19px;
+        width: 648px;
+    }
+
+    .p11 {
+        color: rgb(137, 137, 137);
+    }
+
+    .p12{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color:rgb(137, 137, 137);
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1199px) {
+    
+}
