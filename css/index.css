@@ -28,13 +28,14 @@ body {
     .link {
         width: 104px;
         height: 30px;
-        margin-top: 160px;
+        margin-top: 170px;
         text-decoration: none;
         line-height: 30px;
         font-family: Camphor Pro VF, Camphor Pro, sans-serif;
         font-size: 12px;
         font-weight: 400;
         background-color: white;
+        border-radius: 8px;
     }
 
     .link:hover {
@@ -66,9 +67,11 @@ body {
 
     .p2 {
         margin-top: -8px;
+        text-align: center;
     }
 
     .link-2 {
+        text-align: center;
         width: 104px;
         height: 30px;
         font-size: 12px;
@@ -311,15 +314,102 @@ body {
         color: rgb(137, 137, 137);
     }
 
-    .p12{
+    .p12 {
         content: "";
         display: block;
         width: 100%;
         height: 2px;
-        background-color:rgb(137, 137, 137);
+        background-color: rgb(137, 137, 137);
     }
 }
 
 @media all and (min-width:768px) and (max-width:1199px) {
-    
+    .custom-position {
+        top: 0;
+        z-index: 2;
+    }
+
+    .pak1 {
+        height: 337px;
+        background-image: url(../images/20.jpg);
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .pak2 {
+        line-height: 28px;
+        width: 98px;
+        height: 28px;
+        color: black;
+        background-color: white;
+        width: 100px;
+        text-decoration: none;
+        position: relative;
+        right: -20px;
+        top: 200px;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 12px;
+        font-size: 400;
+        border-radius: 8px;
+    }
+
+    .pak2:hover {
+        background-color: #e1e1e1;
+    }
+
+    .pak3 {
+        height: 10px;
+    }
+
+    .pak4 {
+        height: 337px;
+        background-image: url(../images/21.png);
+        background-size: cover;
+    }
+
+    .pak5 {
+        position: relative;
+        top: 55px;
+        left: -230px;
+        font-family: Xiaomi Brand, Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .pak6 {
+        width: 270px;
+        height: 43px;
+        position: relative;
+        left: 40px;
+        top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        text-align: left;
+    }
+
+    .pak7 {
+        width: 98px;
+        height: 28px;
+        position: relative;
+        left: -280px;
+        top: 50px;
+        background-color: black;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        line-height: 28px;
+    }
+
+    .pak7:hover {
+        background-color: #444;
+    }
+
+    .pak8 {
+        width: 120px;
+        position: relative;
+        top: 50px;
+        left: 30px;
+    }
 }
