@@ -1,6 +1,5 @@
 body {
     background-color: #eee;
-    height: 5000px;
 }
 
 @media all and (max-width:767px) {
@@ -180,6 +179,13 @@ body {
         height: 516px;
     }
 
+    .card-custom {
+        width: 370px;
+        background-image: url(../images/14.png);
+        background-repeat: no-repeat;
+        background-position: 55px 350px;
+    }
+
     .p7 {
         font-family: Camphor Pro VF, Camphor Pro, sans-serif;
         font-size: 30px;
@@ -194,7 +200,7 @@ body {
 
     /*numeber8**********************************************************************************************************************************/
     .custom-height7 {
-        width: 646px;
+        width: 767px;
         height: 901px;
     }
 
@@ -323,7 +329,7 @@ body {
     }
 }
 
-@media all and (min-width:768px) and (max-width:1199px) {
+@media all and (min-width:768px) {
     .custom-position {
         top: 0;
         z-index: 2;
@@ -412,4 +418,172 @@ body {
         top: 50px;
         left: 30px;
     }
+
+    .pak9 {
+        cursor: pointer;
+        background-image: url(../images/21.jpg);
+        width: 370px;
+        height: 225px;
+        background-size: cover;
+    }
+
+    .pak10 {
+        position: relative;
+        width: 163px;
+        height: 11px;
+        top: 20px;
+    }
+
+    .pak11 {
+        position: relative;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        top: 20px;
+    }
+
+    .pak12 {
+        width: 68px;
+        height: 13px;
+        color: rgb(255, 105, 0);
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 11px;
+    }
+
+    .pak12:hover {
+        color: rgb(255, 105, 0);
+    }
+
+    .pak12::after {
+        content: "";
+        display: block;
+        width: 55px;
+        height: 2px;
+        background-color: orange;
+        transform: scaleX(0);
+        margin-top: -4px;
+    }
+
+    .pak12:hover::after {
+        transform: scaleX(1);
+    }
+
+    .pak13 {
+        cursor: pointer;
+        background-image: url(../images/22.jpg);
+        width: 370px;
+        height: 225px;
+        background-size: cover;
+        margin-left: 4px;
+    }
+
+    .pak14 {
+        width: 110px;
+        height: 14px;
+        position: relative;
+        top: 20px;
+        left: 90px;
+    }
+
+    .pak15 {
+        position: relative;
+        left: 90px;
+        top: 8px;
+        font-family: Xiaomi Brand, Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .pak16 {
+        position: relative;
+        top: -15px;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .pak17 {
+        position: relative;
+        top: -34px;
+    }
+
+    .custoom-height {
+        height: 240px;
+    }
+
+    .custooom-picture1 {
+        width: 370px;
+        cursor: pointer;
+        background-image: url(../images/23.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .custooom-picture2 {
+        background-repeat: no-repeat;
+        background-image: url(../images/24.jpg);
+        width: 184px;
+        margin-left: 3px;
+        cursor: pointer;
+    }
+
+    .custooom-picture3 {
+        background-repeat: no-repeat;
+        background-image: url(../images/25.png);
+        margin-left: 3px;
+        width: 184px;
+        cursor: pointer;
+        position: relative;
+        background-position: 20px 95px;
+    }
+
+    .pak18 {
+        position: relative;
+        top: 10px;
+        left: 80px;
+        font-size: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-weight: 18px;
+        font-family: 700;
+
+    }
+
+    .pak19 {
+        top: 5px;
+        left: 90px;
+        position: relative;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+
+    }
+
+    .pak22 {
+        position: relative;
+        top: 10px;
+        left: 5px;
+        font-size: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-weight: 18px;
+        font-family: 700;
+    }
+
+    .pak20 {
+        position: relative;
+        top: 10px;
+        left: 30px;
+        font-size: Camphor Pro VF, Camphor Pro, sans-serif;
+        font-weight: 18px;
+        font-family: 700;
+    }
+
+    .pak21 {
+        text-align: center;
+        position: relative;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: Camphor Pro VF, Camphor Pro, sans-serif;
+    }
+
+    .pakk13 {
+        width: 74px;
+    }
+
 }
