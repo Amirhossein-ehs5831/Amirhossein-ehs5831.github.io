@@ -1,0 +1,167 @@
+body {
+    height: 3000px;
+    background-color: #eee;
+}
+
+@media all and (max-width:767px) {
+    /* navigation **************************************************************************/
+    .edit1 {
+        height: 48px;
+        z-index: 2;
+    }
+
+    .edit2 {
+        line-height: 20px;
+    }
+
+    .edit3 {
+        right: 70px;
+    }
+
+    .custom-font1 {
+        font-size: 20px;
+        color: black;
+    }
+    /* part-1 ********************************************************************************/
+    .custom-smdiv {
+        height: 480px;
+        background-image: url(../images/picture-sm-1.jpg);
+        background-size: cover;
+        margin-top: 65px;
+        cursor: pointer;
+    }
+
+    .edit5 {
+        width: 104px;
+        height: 30px;
+        border-radius: 6px;
+        top: 170px;
+        background-color: white;
+    }
+
+    .edit5:hover {
+        background-color: #e1e1e1;
+    }
+
+    .custom-font4 {
+        font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .edit1 {
+        height: 48px;
+        z-index: 2;
+    }
+
+    .edit2 {
+        line-height: 20px;
+    }
+
+    .edit3 {
+        right: 70px;
+    }
+
+    .custom-font1 {
+        font-size: 20px;
+        color: black;
+    }
+    /* part-2 **************************************************************************************/
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    /* navigation *********************************************************************************/
+    .edit1 {
+        height: 48px;
+        z-index: 2;
+    }
+
+    .custom-font2 {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    }
+
+    .custom-font3 {
+        font-size: 20px;
+    }
+    /* part-1 *****************************************************************************************/
+}
+
+@media all and (min-width:768px) and (max-width:1199px) {
+    /* navigation *****************************************************************************************/
+    .custom-font2 {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    }
+
+    .edit1 {
+        height: 48px;
+        z-index: 2;
+    }
+
+    .edit2 {
+        line-height: 20px;
+    }
+
+    .edit3 {
+        right: 70px;
+    }
+
+    .custom-font1 {
+        font-size: 20px;
+        color: black;
+    }
+
+    .custom-font2 {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    }
+
+    .custom-font3 {
+        font-size: 20px;
+    }
+    /* part-1 **********************************************************************************************/
+}
+
+@media all and (min-width:1200px) {
+    /* navigation ******************************************************************************************/
+    .custom-font2 {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    }
+
+    .edit1 {
+        height: 48px;
+        z-index: 2;
+    }
+
+    .edit2 {
+        line-height: 20px;
+    }
+
+    .edit3 {
+        right: 70px;
+    }
+
+    .custom-font1 {
+        font-size: 20px;
+        color: black;
+    }
+
+    .custom-font2 {
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    }
+
+    .custom-font3 {
+        font-size: 20px;
+    }
+    /* part-1 **************************************************************************************************/
+    
+}
